@@ -1,4 +1,4 @@
-/* 
+    /*
 didactic purposes
 Some items are intentionally not optimized or not coded in the right way
 FastTrackIT 2015,
@@ -6,7 +6,7 @@ version 1.0
 */
 
 body {
-    background-color:floralwhite;
+    background-image: url("blacksheep.jpg");
     font-family: Verdana, Helvetica, Arial, sans-serif;
     line-height: 125%;
     padding: 0;
@@ -16,7 +16,7 @@ body {
 
 h1 {
     font-size: large;
-    background-color: deepskyblue;
+    background-color: black;
     color: white;
     padding-top: 2em;
     padding-bottom: .2em;
@@ -44,6 +44,7 @@ h1 {
 
 #navigation {
     position: absolute;
+    left: 370px;
     top: 110px;
     width: 110px;
     height: 180px;
@@ -55,7 +56,7 @@ h1 {
 
 #bodycontent {
     position: absolute;
-    left: 140px;
+    left: 500px;
     top: 120px;
     padding-top:.4em;
     padding-left:2em;
@@ -63,7 +64,7 @@ h1 {
 
 #postcontent {
     position: absolute;
-    left: 360px;
+    left: 750px;
     top: 110px;
     width: 120px;
     height:180px;
@@ -74,7 +75,6 @@ h1 {
 }
 
 #serverResponse {
-    color:red;
     position: absolute;
     top: 210px;
     left: 140px;
